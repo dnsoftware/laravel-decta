@@ -1,0 +1,26 @@
+{
+    "name": "dnsoftware/laravel-decta",
+    "description": "Decta Merchant",
+    "type": "library",
+    "version": "0.0.2",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dnsoftware\\Decta\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dmitry Nazarov",
+            "email": "dailyru@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dnsoftware\\Decta\\DectaServiceProvider"
+            ]
+        }
+    }
+}
